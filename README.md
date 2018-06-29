@@ -2,6 +2,14 @@
 
 [![Build Status](https://secure.travis-ci.org/PyMySQL/mysqlclient-python.png)](http://travis-ci.org/PyMySQL/mysqlclient-python)
 
+### This is a fork of a fork
+
+This fork corrects a byte string error between PyMySQL/mysqlclient-python, Python3, and Saltstack. This error prevented the Saltstack mysql_grants module from working correctly.
+
+
+
+### From the original
+
 This is a fork of [MySQLdb1](https://github.com/farcepest/MySQLdb1).
 
 This project adds Python 3 support and bug fixes.
